@@ -7,27 +7,51 @@ const initialState = {
   posts: [],
 };
 
-export const counterSlice = createSlice({
+export const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
-    increment: (state) => {
-      // Redux Toolkit allows us to write "mutating" logic in reducers. It
-      // doesn't actually mutate the state because it uses the Immer library,
-      // which detects changes to a "draft state" and produces a brand new
-      // immutable state based off those changes
-      state.value += 1;
+    setMode: (state) => {
+      state.mode = state.mode === "light" ? "dark" : "light";
     },
-    decrement: (state) => {
-      state.value -= 1;
+
+    setLogin: (state, action) => {
+      state.user = action.payload.user;
+      state.token = action.payload.token;
     },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload;
+
+    setLogout: (state) => {
+      state.user = null;
+      state.token = null;
+    },
+
+    setFriends: (state, action) => {
+      if (state.user) {
+        state.user.friends = action.payload.friends;
+      } else {
+        console.error("user friends non-existent :(");
+      }
+    },
+
+    setPosts: (state, action) => {
+      state.posts = action.payload.posts;
+    },
+
+    setPost: (state, action) => {
+      const updatedPosts = state.posts.map((post) => {
+        if (post._id === action.payload.post._id) return action.payload.post;
+
+        // otherwise
+        return post;
+      });
+
+      state.posts = updatedPosts;
     },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = counterSlice.actions;
+export const { setMode, setLogin, setLogout, setFriends, setPosts, setPost } =
+  authSlice.actions;
 
-export default counterSlice.reducer;
+export default authSlice.reducer;
