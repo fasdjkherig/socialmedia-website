@@ -13,6 +13,7 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import twitterImage from "../../assets/twitter.png";
 import linkedinImage from "../../assets/linkedin.png";
+
 const UserWidget = ({ userId, picturePath }) => {
   const [user, setUser] = useState(null);
   const { palette } = useTheme();
@@ -73,7 +74,7 @@ const UserWidget = ({ userId, picturePath }) => {
               fontWeight="500"
               sx={{
                 "&:hover": {
-                  color: palette.primary.light,
+                  color: palette.primary.main,
                   cursor: "pointer",
                 },
               }}
@@ -123,7 +124,7 @@ const UserWidget = ({ userId, picturePath }) => {
           </Typography>
         </FlexBetween>
 
-        <FlexBetween>
+        <FlexBetween mb="0.5rem">
           <Typography color={medium}>Impressions of your post</Typography>
           {/* number of impressions for your posts*/}
           <Typography color={main} fontWeight="500">
