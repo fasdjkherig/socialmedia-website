@@ -16,3 +16,20 @@ Fully functioning Social media website
 - add and remove friends.
 - light and dark mode.
 - widgets.
+
+### Technologies:
+
+- **html**
+- **css**
+- **javascript**
+- **react**
+- **react-hooks**
+- **react-router-dom@6**
+- **redux toolkit**
+- **redux-persist**
+- **react-formik**
+- **yub**
+- **react-dropzone**
+- **vite**
+- **material Ui**
+- **material icons**
