@@ -156,7 +156,16 @@ const UserWidget = ({ userId, picturePath }) => {
           </FlexBetween>
 
           {/* edit icon */}
-          <EditOutlined sx={{ color: main }} />
+          <EditOutlined
+            sx={
+              ({ color: main },
+              {
+                "&:hover": {
+                  cursor: "pointer",
+                },
+              })
+            }
+          />
         </FlexBetween>
 
         {/* linkedin */}
@@ -174,7 +183,16 @@ const UserWidget = ({ userId, picturePath }) => {
           </FlexBetween>
 
           {/* edit icon */}
-          <EditOutlined sx={{ color: main }} />
+          <EditOutlined
+            sx={
+              ({ color: main },
+              {
+                "&:hover": {
+                  cursor: "pointer",
+                },
+              })
+            }
+          />
         </FlexBetween>
       </Box>
     </WidgetWrapper>

@@ -151,7 +151,7 @@ export const posts = [
     location: "New York, CA",
     description: "Some really long random description",
     picturePath: "post1.jpeg",
-    userPicturePath: "p3.jpeg",
+    userPicturePath: "p3.png",
     likes: new Map([
       [userIds[0], true],
       [userIds[2], true],
@@ -173,7 +173,7 @@ export const posts = [
     description:
       "Another really long random description. This one is longer than the previous one.",
     picturePath: "post2.jpeg",
-    userPicturePath: "p6.jpeg",
+    userPicturePath: "p6.png",
     likes: new Map([
       [userIds[7], true],
       [userIds[4], true],
@@ -195,8 +195,8 @@ export const posts = [
     location: "Utah, CA",
     description:
       "This is the last really long random description. This one is longer than the previous one.",
-    picturePath: "post3.jpeg",
-    userPicturePath: "p5.jpeg",
+    picturePath: "post3.jpg",
+    userPicturePath: "p5.png",
     likes: new Map([
       [userIds[1], true],
       [userIds[6], true],
@@ -219,8 +219,8 @@ export const posts = [
     location: "Los Angeles, CA",
     description:
       "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
-    picturePath: "post4.jpeg",
-    userPicturePath: "p7.jpeg",
+    picturePath: "post4.jpg",
+    userPicturePath: "p7.png",
     likes: new Map([
       [userIds[1], true],
       [userIds[6], true],
@@ -243,8 +243,8 @@ export const posts = [
     location: "Chicago, IL",
     description:
       "Just a short description. I'm tired of typing. I'm going to play video games now.",
-    picturePath: "post5.jpeg",
-    userPicturePath: "p8.jpeg",
+    picturePath: "post5.jpg",
+    userPicturePath: "p8.png",
     likes: new Map([
       [userIds[1], true],
       [userIds[3], true],
@@ -267,8 +267,8 @@ export const posts = [
     location: "Washington, DC",
     description:
       "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
-    picturePath: "post6.jpeg",
-    userPicturePath: "p9.jpeg",
+    picturePath: "post6.jpg",
+    userPicturePath: "p9.png",
     likes: new Map([
       [userIds[1], true],
       [userIds[2], true],
