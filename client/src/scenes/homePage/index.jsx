@@ -33,14 +33,18 @@ const HomePage = () => {
           flexBasis={isNonMobileScreens ? "42%" : undefined}
           mt={isNonMobileScreens ? undefined : "2rem"}
         >
+          {/* my post widget */}
           <MyPostWidget picturePath={picturePath} />
+          {/* all posts widget */}
           <PostsWidget userId={_id} />
         </Box>
 
         {isNonMobileScreens && (
           <Box flexBasis="26%">
+            {/* advertise widget */}
             <AdvertWidget />
             <Box m="2rem 0" />
+            {/* friends list widget */}
             <FriendListWidget userId={_id} />
           </Box>
         )}
