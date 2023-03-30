@@ -8,6 +8,7 @@ Fully functioning Social media website
 - get posts from database.
 - create post and sending in to datebase.
 - View user information.
+- State Management.
 - Interact with other people's posts by liking and viewing comments.
 - routes pages.
 - gard routes.
