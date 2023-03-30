@@ -51,7 +51,7 @@ const PostWidget = ({
     dispatch(setPost({ post: updatedPost }));
   };
   return (
-    <WidgetWrapper>
+    <WidgetWrapper m="2rem 0">
       <Friend
         friendId={postUserId}
         name={name}
