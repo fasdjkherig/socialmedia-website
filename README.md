@@ -31,5 +31,7 @@ Fully functioning Social media website
 - **yub**
 - **react-dropzone**
 - **vite**
+- **JWT**
+- **restfulAPI**
 - **material Ui**
 - **material icons**
