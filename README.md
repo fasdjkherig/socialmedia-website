@@ -4,8 +4,15 @@ Fully functioning Social media website
 
 ### contains:
 
-- Sign up and Login with validation.
+- authentication (Sign up and Login with validation).
 - get posts from database.
 - create post and sending in to datebase.
 - View user information.
-- Interact with other people's posts by liking and - viewing comments.
+- Interact with other people's posts by liking and viewing comments.
+- routes pages.
+- gard routes.
+- fully responsive design.
+- aploading images (in reigster and create post).
+- add and remove friends.
+- light and dark mode.
+- widgets.
