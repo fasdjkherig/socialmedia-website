@@ -4,7 +4,7 @@ Fully functioning Social media website
 
 ### contains:
 
-** Sign up and Login with validation. **
+**Sign up and Login with validation.**
 get posts from database.
 create post and sending in to datebase.
 View user information.
