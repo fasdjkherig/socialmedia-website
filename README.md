@@ -2,7 +2,8 @@
 
 Fully functioning Social media website
 
-###contains:
+### contains:
+
 Sign up and Login with validation.
 get posts from database.
 create post and sending in to datebase.
