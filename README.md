@@ -2,6 +2,8 @@
 
 Fully functioning Social media website
 
+![home image](https://github.com/fasdjkherig/socialmedia-website-private/blob/main/client/public/4.png)
+
 ### contains:
 
 - authentication (Sign up and Login with validation).
