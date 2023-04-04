@@ -2,7 +2,7 @@
 
 Fully functioning Social media website
 
-![home image](https://github.com/fasdjkherig/socialmedia-website-private/blob/main/client/public/4.png)
+![home image](https://github.com/fasdjkherig/socialmedia-website/blob/main/client/public/4.png)
 
 ### contains:
 
@@ -38,3 +38,7 @@ Fully functioning Social media website
 - **restfulAPI**
 - **material Ui**
 - **material icons**
+
+#### Demo:
+
+[Project link](https://sociality-eta.vercel.app/)
